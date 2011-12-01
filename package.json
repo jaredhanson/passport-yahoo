@@ -1,0 +1,16 @@
+{
+  "name": "passport-yahoo",
+  "version": "0.1.0",
+  "description": "Yahoo authentication strategy for Passport.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/passport-yahoo.git"
+  },
+  "main": "./lib/passport-yahoo",
+  "dependencies": {
+    "passport-openid": ">= 0.1.1"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "yahoo", "auth", "authn", "authentication", "identity"]
+}
