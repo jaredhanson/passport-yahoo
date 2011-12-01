@@ -1,7 +1,7 @@
 {
   "name": "passport-yahoo",
   "version": "0.1.0",
-  "description": "Yahoo authentication strategy for Passport.",
+  "description": "Yahoo! authentication strategy for Passport.",
   "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
   "repository": {
     "type": "git",

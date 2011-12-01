@@ -29,9 +29,6 @@ passport.use(new YahooStrategy({
     realm: 'http://localhost:3000/'
   },
   function(identifier, profile, done) {
-    console.log('YAHOO ID: ' + identifier);
-    console.log('YAHOO PROFILE: ' + util.inspect(profile));
-    
     // asynchronous verification, for effect...
     process.nextTick(function () {
       
