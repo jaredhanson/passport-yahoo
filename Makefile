@@ -1,5 +1,5 @@
 NODE = node
-TEST = vows
+TEST = ./node_modules/.bin/vows
 TESTS ?= test/*-test.js
 
 test:
@@ -10,7 +10,7 @@ docs: docs/api.html
 docs/api.html: lib/passport-yahoo/*.js
 	dox \
 		--title Passport-Yahoo \
-		--desc "Yahoo authentication strategy for Passport" \
+		--desc "Yahoo! (OpenID) authentication strategy for Passport" \
 		$(shell find lib/passport-yahoo/* -type f) > $@
 
 docclean:
