@@ -13,7 +13,7 @@
   "main": "./lib/passport-yahoo",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-openid": "~0.1.1"
+    "passport-openid": "~0.1.2"
   },
   "devDependencies": {
     "vows": "0.6.x"
