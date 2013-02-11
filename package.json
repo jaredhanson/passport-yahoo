@@ -1,6 +1,6 @@
 {
   "name": "passport-yahoo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Yahoo! (OpenID) authentication strategy for Passport.",
   "keywords": ["passport", "yahoo", "auth", "authn", "authentication", "identity"],
   "repository": {
@@ -22,7 +22,7 @@
   "main": "./lib/passport-yahoo",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-openid": "0.2.x"
+    "passport-openid": "0.3.x"
   },
   "devDependencies": {
     "vows": "0.6.x"
