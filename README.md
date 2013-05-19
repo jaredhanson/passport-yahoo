@@ -26,7 +26,7 @@ Additionally, options can be supplied to specify a return URL and realm.
         returnURL: 'http://localhost:3000/auth/yahoo/return',
         realm: 'http://localhost:3000/'
       },
-      function(identifier, done) {
+      function(identifier, profile, done) {
         User.findByOpenID({ openId: identifier }, function (err, user) {
           return done(err, user);
         });
